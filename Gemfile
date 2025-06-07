@@ -1,23 +1,43 @@
-source 'http://rubygems.org'
+#### IMPORTANT #######################################################
+# Gemfile is for local development ONLY; Gemfile is NOT loaded in CI #
+####################################################### IMPORTANT ####
 
-gem 'rake', '~> 12.0'
+source "https://rubygems.org"
 
-platforms :jruby do
-  gem 'jruby-openssl', '~> 0.9'
-end
-
-gem 'ruby-openid', '2.1.8', :git => 'git://github.com/mbleigh/ruby-openid.git'
+git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
 gemspec
 
-group :development, :test do
-  gem 'rack-test'
-  gem 'rspec', '>= 3.0'
-  gem 'simplecov', '>= 0.9'
-  gem 'webmock', '~> 3.0'
-  gem 'yard', '>= 0.9.11'
-end
+### Std Lib Extracted Gems
+eval_gemfile "gemfiles/modular/x_std_libs/r3/libs.gemfile"
 
-group :example do
-  gem 'sinatra'
-end
+### Security Audit
+eval_gemfile "gemfiles/modular/audit.gemfile"
+
+### Documentation
+eval_gemfile "gemfiles/modular/documentation.gemfile"
+
+### Linting
+eval_gemfile "gemfiles/modular/style.gemfile"
+
+# Code Coverage
+eval_gemfile "gemfiles/modular/coverage.gemfile"
+
+### Testing
+gem "appraisal", github: "pboling/appraisal", branch: "galtzo"
+
+# gem 'rake', '~> 12.0'
+
+# platforms :jruby do
+#   gem 'jruby-openssl', '~> 0.9'
+# end
+# group :development, :test do
+#   gem 'rack-test'
+#   gem 'rspec', '>= 3.0'
+#   gem 'simplecov', '>= 0.9'
+#   gem 'webmock'#, '~> 3.0'
+#   gem 'yard', '>= 0.9.11'
+# end
+# group :example do
+#   gem 'sinatra'
+# end

@@ -1,0 +1,4 @@
+# frozen_string_literal: true
+
+# Ruby >= 2.2
+gem "rack-openid", github: "grosser/rack-openid", branch: "master"
