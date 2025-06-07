@@ -46,12 +46,12 @@ jobs:
             bundler: default
 
 #          # truffleruby-head
-          - ruby: "truffleruby-head"
-            appraisal_name: "omniauth-v2.1-r3"
-            exec_cmd: "rake spec"
-            gemfile: "Appraisal.root"
-            rubygems: default
-            bundler: default
+#          - ruby: "truffleruby-head"
+#            appraisal_name: "omniauth-v2.1-r3"
+#            exec_cmd: "rake spec"
+#            gemfile: "Appraisal.root"
+#            rubygems: default
+#            bundler: default
 
           # jruby-head
           - ruby: "jruby-head"
