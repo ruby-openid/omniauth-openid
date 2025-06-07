@@ -5,7 +5,7 @@
   "lib/omniauth/strategies/open_id.rb:3703196606": [
     [50, 17, 10, "Lint/DuplicateHashKey: Duplicated key in hash literal.", 3672542120]
   ],
-  "omniauth-openid.gemspec:1451907988": [
+  "omniauth-openid.gemspec:1698529195": [
     [4, 23, 12, "Gemspec/RubyVersionGlobalsUsage: Do not use `RUBY_VERSION` in gemspec file.", 31296028]
   ],
   "spec/omniauth/openid/version_spec.rb:4155563924": [
