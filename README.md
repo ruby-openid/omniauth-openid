@@ -312,7 +312,7 @@ or one of the others at the head of this README.
 [🔑qlty-cov]: https://qlty.sh/gh/omniauth/projects/omniauth-openid
 [🔑qlty-covi♻️]: https://qlty.sh/badges/c2eb0211-c105-4fc6-9b36-650307c67e06/test_coverage.svg
 [🔑codecov]: https://codecov.io/gh/omniauth/omniauth-openid
-[🔑codecovi♻️]: https://codecov.io/gh/omniauth/omniauth-openid/branch/main/graph/badge.svg?token=cc6UdZCpAL
+[🔑codecovi♻️]: https://codecov.io/gh/omniauth/omniauth-openid/branch/main/graph/badge.svg?token=E1fzzcuB8f
 [🔑coveralls]: https://coveralls.io/github/omniauth/omniauth-openid?branch=main
 [🔑coveralls-img]: https://coveralls.io/repos/github/omniauth/omniauth-openid/badge.svg?branch=main
 [🔑depfu]: https://depfu.com/github/omniauth/omniauth-openid?project_id=22381
@@ -367,7 +367,7 @@ or one of the others at the head of this README.
 [🤝gh-issues]: https://github.com/omniauth/omniauth-openid/issues
 [🤝gh-pulls]: https://github.com/omniauth/omniauth-openid/pulls
 [🤝contributing]: CONTRIBUTING.md
-[🔑codecov-g♻️]: https://codecov.io/gh/omniauth/omniauth-openid/graphs/tree.svg?token=cc6UdZCpAL
+[🔑codecov-g♻️]: https://codecov.io/gh/omniauth/omniauth-openid/graphs/tree.svg?token=E1fzzcuB8f
 [🖐contrib-rocks]: https://contrib.rocks
 [🖐contributors]: https://github.com/omniauth/omniauth-openid/graphs/contributors
 [🖐contributors-img]: https://contrib.rocks/image?repo=omniauth/omniauth-openid
@@ -385,7 +385,7 @@ or one of the others at the head of this README.
 [📌gitmoji]:https://gitmoji.dev
 [📌gitmoji-img]:https://img.shields.io/badge/gitmoji_commits-%20😜%20😍-34495e.svg?style=flat-square
 [🧮kloc]: https://www.youtube.com/watch?v=dQw4w9WgXcQ
-[🧮kloc-img]: https://img.shields.io/badge/KLOC-0.378-FFDD67.svg?style=for-the-badge&logo=YouTube&logoColor=blue
+[🧮kloc-img]: https://img.shields.io/badge/KLOC-0.080-FFDD67.svg?style=for-the-badge&logo=YouTube&logoColor=blue
 [🔐security]: SECURITY.md
 [🔐security-img]: https://img.shields.io/badge/security-policy-259D6C.svg?style=flat
 [📄copyright-notice-explainer]: https://opensource.stackexchange.com/questions/5778/why-do-licenses-such-as-the-mit-license-specify-a-single-year
