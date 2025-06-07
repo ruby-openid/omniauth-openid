@@ -1,0 +1,22 @@
+{
+  "bin/bundle:247448467": [
+    [64, 5, 20, "ThreadSafety/ClassInstanceVariable: Avoid class instance variables.", 2485198147]
+  ],
+  "lib/omniauth/strategies/open_id.rb:3703196606": [
+    [50, 17, 10, "Lint/DuplicateHashKey: Duplicated key in hash literal.", 3672542120]
+  ],
+  "omniauth-openid.gemspec:1451907988": [
+    [4, 23, 12, "Gemspec/RubyVersionGlobalsUsage: Do not use `RUBY_VERSION` in gemspec file.", 31296028]
+  ],
+  "spec/omniauth/openid/version_spec.rb:4155563924": [
+    [11, 58, 25, "RSpec/DescribedClass: Use `described_class` instead of `OmniAuth::OpenID::Version`.", 3486261707]
+  ],
+  "spec/omniauth/strategies/open_id_spec.rb:1187086664": [
+    [1, 1, 60, "RSpec/SpecFilePathFormat: Spec path should end with `omni_auth/strategies/open_id*_spec.rb`.", 3122388919],
+    [55, 13, 12, "RSpec/ContextWording: Context description should match /^when\\b/, /^with\\b/, or /^without\\b/.", 1731001529],
+    [72, 13, 14, "RSpec/ContextWording: Context description should match /^when\\b/, /^with\\b/, or /^without\\b/.", 468958882],
+    [73, 7, 45, "RSpec/NestedGroups: Maximum example group nesting exceeded [4/3].", 3384971759],
+    [74, 9, 37, "RSpec/MultipleExpectations: Example has too many expectations [2/1].", 526327299],
+    [75, 11, 7, "RSpec/PendingWithoutReason: Give the reason for pending.", 2397655994]
+  ]
+}
