@@ -1,5 +1,5 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/master/src/ruby
+// README at: https://github.com/devcontainers/templates/tree/main/src/ruby
 {
 	"name": "Ruby",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
