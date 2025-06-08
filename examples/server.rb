@@ -1,12 +1,26 @@
-require "rubygems"
-require "bundler"
+#!/usr/bin/env ruby
 
-Bundler.setup(:default, :development, :example)
+require "bundler/inline"
+
+gemfile do
+  source "https://rubygems.org"
+
+  gemspec path: "../"
+
+  gem "sinatra"
+  gem "rackup"
+  gem "puma"
+  gem "json", require: false
+  gem "nap", require: "rest"
+end
+
+require "json"
+require "securerandom"
 require "sinatra"
 require "omniauth-openid"
 require "openid/store/filesystem"
 
-use Rack::Session::Cookie
+use Rack::Session::Cookie, secret: SecureRandom.hex(64)
 
 use OmniAuth::Builder do
   provider :open_id, store: OpenID::Store::Filesystem.new("/tmp")
@@ -26,3 +40,5 @@ end
     request.env["omniauth.auth"].info.to_hash.inspect
   end
 end
+
+Sinatra::Application.run!

@@ -35,6 +35,15 @@ module OmniAuth
         lambda { |env|
           req = Rack::Request.new(env)
           root_uri = "#{req.scheme}://#{req.host_with_port}/"
+          trust_root = if options.trust_root
+            if options.trust_root.respond_to?(:call)
+              options.trust_root.call(root_uri)
+            else
+              options.trust_root
+            end
+          else
+            %r{^(https?://[^/]+)}.match(callback_url) { |m| m[1] }
+          end
 
           [
             401,
@@ -42,12 +51,11 @@ module OmniAuth
               "WWW-Authenticate" => Rack::OpenID.build_header(
                 identifier: identifier,
                 return_to: callback_url,
-                trust_root: options.trust_root || %r{^(https?://[^/]+)}.match(callback_url) { |m| m[1] },
+                trust_root: trust_root,
                 required: options.required,
                 optional: options.optional,
                 method: "post",
                 immediate: options.immediate,
-                trust_root: options.trust_root.call(root_uri),
               ),
             },
             [],

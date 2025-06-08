@@ -127,6 +127,27 @@ Note the use of nil, which will trigger ruby-openid's default Memory Store.
 
 Please contribute some documentation if you have the gumption!  The maintainer's time is limited, and sometimes the authors of PRs with new options don't update the _this_ readme. 😭
 
+## Example
+
+A terribly basic example of an OpenID client/server is at `/examples`
+
+In one shell run the [server][server]:
+
+```shell
+cd examples
+./server.rb
+```
+
+In another shell run the [client][client]:
+
+```shell
+cd examples
+./client.rb
+```
+
+[server]: examples/server.rb
+[client]: examples/client.rb
+
 ## 🔐 Security
 
 See [SECURITY.md][🔐security].

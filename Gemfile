@@ -26,18 +26,6 @@ eval_gemfile "gemfiles/modular/coverage.gemfile"
 ### Testing
 gem "appraisal", github: "pboling/appraisal", branch: "galtzo"
 
-# gem 'rake', '~> 12.0'
-
-# platforms :jruby do
-#   gem 'jruby-openssl', '~> 0.9'
-# end
-# group :development, :test do
-#   gem 'rack-test'
-#   gem 'rspec', '>= 3.0'
-#   gem 'simplecov', '>= 0.9'
-#   gem 'webmock'#, '~> 3.0'
-#   gem 'yard', '>= 0.9.11'
-# end
 # group :example do
 #   gem 'sinatra'
 # end

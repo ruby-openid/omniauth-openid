@@ -2,9 +2,6 @@
   "bin/bundle:247448467": [
     [64, 5, 20, "ThreadSafety/ClassInstanceVariable: Avoid class instance variables.", 2485198147]
   ],
-  "lib/omniauth/strategies/open_id.rb:3703196606": [
-    [50, 17, 10, "Lint/DuplicateHashKey: Duplicated key in hash literal.", 3672542120]
-  ],
   "omniauth-openid.gemspec:1698529195": [
     [4, 23, 12, "Gemspec/RubyVersionGlobalsUsage: Do not use `RUBY_VERSION` in gemspec file.", 31296028]
   ],

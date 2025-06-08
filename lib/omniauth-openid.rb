@@ -1,5 +1,6 @@
 # external gems
 require "version_gem"
+require "rexml"
 
 # this library's version
 require "omniauth/openid/version"
