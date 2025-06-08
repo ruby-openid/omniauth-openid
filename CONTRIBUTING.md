@@ -116,7 +116,7 @@ NOTE: To build without signing the gem set `SKIP_GEM_SIGNING` to any value in th
 
 13. [🚎src-main]: https://github.com/omniauth/omniauth-openid
 [🧪build]: https://github.com/omniauth/omniauth-openid/actions
-[🤝conduct]: https://github.com/omniauth/omniauth-openid/blob/main/CODE_OF_CONDUCT.md
+[🤝conduct]: https://github.com/omniauth/omniauth-openid/blob/master/CODE_OF_CONDUCT.md
 [🖐contrib-rocks]: https://contrib.rocks
 [🖐contributors]: https://github.com/omniauth/omniauth-openid/graphs/contributors
 [🖐contributors-img]: https://contrib.rocks/image?repo=omniauth/omniauth-openid

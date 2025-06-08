@@ -1,15 +1,15 @@
 <p align="center">
     <a href="https://discord.gg/3qme4XHNKN" target="_blank" rel="noopener">
-      <img width="124px" src="https://github.com/omniauth/omniauth-openid/raw/main/docs/images/logo/galtzo-floss-logos-original.svg?raw=true" alt="Galtzo.com Logo by Aboling0, CC BY-SA 4.0">
+      <img width="124px" src="https://github.com/omniauth/omniauth-openid/raw/master/docs/images/logo/galtzo-floss-logos-original.svg?raw=true" alt="Galtzo.com Logo by Aboling0, CC BY-SA 4.0">
     </a>
     <a href="https://github.com/omniauth" target="_blank" rel="noopener">
-      <img src="https://github.com/omniauth/omniauth-openid/raw/main/docs/images/logo/omniauth-logo-182px.png?raw=true" alt="OmniAuth Logo possibly by Ted O'Meara, license unknown">
+      <img src="https://github.com/omniauth/omniauth-openid/raw/master/docs/images/logo/omniauth-logo-182px.png?raw=true" alt="OmniAuth Logo possibly by Ted O'Meara, license unknown">
     </a>
     <a href="https://openid.net/specs/openid-authentication-2_0.html" target="_blank" rel="noopener">
-      <img src="https://github.com/omniauth/omniauth-openid/raw/main/docs/images/logo/openid_rgb-300dpi.png?raw=true" alt="OmniAuth Logo possibly by Ted O'Meara, license unknown">
+      <img src="https://github.com/omniauth/omniauth-openid/raw/master/docs/images/logo/openid_rgb-300dpi.png?raw=true" alt="OmniAuth Logo possibly by Ted O'Meara, license unknown">
     </a>
     <a href="https://www.ruby-lang.org/" target="_blank" rel="noopener">
-      <img width="124px" src="https://github.com/omniauth/omniauth-openid/raw/main/docs/images/logo/ruby-logo-198px.svg?raw=true" alt="Yukihiro Matsumoto, Ruby Visual Identity Team, CC BY-SA 2.5">
+      <img width="124px" src="https://github.com/omniauth/omniauth-openid/raw/master/docs/images/logo/ruby-logo-198px.svg?raw=true" alt="Yukihiro Matsumoto, Ruby Visual Identity Team, CC BY-SA 2.5">
     </a>
 </p>
 
@@ -68,7 +68,7 @@ by following the instructions below.
 Add my public key (if you haven’t already, expires 2045-04-29) as a trusted certificate:
 
 ```shell
-gem cert --add <(curl -Ls https://raw.github.com/omniauth/omniauth-openid/main/certs/pboling.pem)
+gem cert --add <(curl -Ls https://raw.github.com/omniauth/omniauth-openid/master/certs/pboling.pem)
 ```
 
 You only need to do that once.  Then proceed to install with:
@@ -230,7 +230,7 @@ See [LICENSE.txt][📄license] for the official [Copyright Notice][📄copyright
         <a href="https://discord.gg/3qme4XHNKN">
             Galtzo.com
             <picture>
-              <img src="https://github.com/omniauth/omniauth-openid/raw/main/docs/images/logo/galtzo-floss-logos-wordless.svg?raw=true" alt="Galtzo.com Logo by Aboling0, CC BY-SA 4.0" width="24">
+              <img src="https://github.com/omniauth/omniauth-openid/raw/master/docs/images/logo/galtzo-floss-logos-wordless.svg?raw=true" alt="Galtzo.com Logo by Aboling0, CC BY-SA 4.0" width="24">
             </picture>
         </a>, and omniauth-openid contributors
     </li>
@@ -312,7 +312,7 @@ or one of the others at the head of this README.
 [🔑qlty-cov]: https://qlty.sh/gh/omniauth/projects/omniauth-openid
 [🔑qlty-covi♻️]: https://qlty.sh/badges/c2eb0211-c105-4fc6-9b36-650307c67e06/test_coverage.svg
 [🔑codecov]: https://codecov.io/gh/omniauth/omniauth-openid
-[🔑codecovi♻️]: https://codecov.io/gh/omniauth/omniauth-openid/branch/main/graph/badge.svg?token=E1fzzcuB8f
+[🔑codecovi♻️]: https://codecov.io/gh/omniauth/omniauth-openid/branch/master/graph/badge.svg?token=E1fzzcuB8f
 [🔑coveralls]: https://coveralls.io/github/omniauth/omniauth-openid?branch=main
 [🔑coveralls-img]: https://coveralls.io/repos/github/omniauth/omniauth-openid/badge.svg?branch=main
 [🔑depfu]: https://depfu.com/github/omniauth/omniauth-openid?project_id=22381
@@ -397,7 +397,7 @@ or one of the others at the head of this README.
 [🚎yard-current]: http://rubydoc.info/gems/omniauth-openid
 [🚎yard-head]: https://omniauth-openid.galtzo.com
 [💎stone_checksums]: https://github.com/pboling/stone_checksums
-[💎SHA_checksums]: https://github.com/omniauth/omniauth-openid/tree/main/checksums
+[💎SHA_checksums]: https://github.com/omniauth/omniauth-openid/tree/master/checksums
 [💎rlts]: https://github.com/rubocop-lts/rubocop-lts
 [💎rlts-img]: https://img.shields.io/badge/code_style_%26_linting-rubocop--lts-34495e.svg?plastic&logo=ruby&logoColor=white
 [✉️discord-invite]: https://discord.gg/3qme4XHNKN
