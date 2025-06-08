@@ -22,7 +22,7 @@ and this project adheres to [Semantic Versioning v2](https://semver.org/spec/v2.
 - Github Actions for Continuous Integration by @pboling
   - Test workflows with latest dependencies and more platform and dep HEADs
   - Expanded test suite, covering many more points of the dependency matrix
-- More documentation by @pboling
+- More documentation by @pboling, @Aboling0
 - 20 year signing cert expires 2045-04-29 by @pboling
 - Added CITATION.cff by @pboling
 - devcontainer for easier maintenance by @pboling
@@ -31,6 +31,7 @@ and this project adheres to [Semantic Versioning v2](https://semver.org/spec/v2.
 - Modernized gem structure, and updated dependencies for development by @pboling
 - Set `SKIP_GEM_SIGNING` in env to allow `gem build` without cryptographic signing requirement by @pboling
   - Useful for linux distros whose package managers sign packages independently
+- Example client / server in `/examples` by @pboling
 ### Changed
 - Updated Code of Conduct to Contributor Covenant v2.1 by @pboling
 
