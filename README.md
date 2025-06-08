@@ -125,7 +125,7 @@ You may pre-configure an OpenID identifier.  For example, to use Google's main O
 
 Note the use of nil, which will trigger ruby-openid's default Memory Store.
 
-Please contribute some documentation if you have the gumption!  The maintainer's time is limited, and sometimes the authors of PRs with new options don't update the _this_ readme. 😭
+Please contribute some documentation if you have the gumption!  The maintainer's time is limited, and sometimes the authors of PRs with new options don't update this readme. 😭
 
 ## Example
 
