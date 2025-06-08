@@ -11,7 +11,7 @@ env:
 on:
   push:
     branches:
-      - 'main'
+      - 'master'
       - '*-stable'
     tags:
       - '!*' # Do not execute on tags
