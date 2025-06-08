@@ -21,7 +21,7 @@
 
 [![Liberapay Goal Progress][⛳liberapay-img]][⛳liberapay] [![Sponsor Me on Github][🖇sponsor-img]][🖇sponsor] [![Buy me a coffee][🖇buyme-small-img]][🖇buyme] [![Donate on Polar][🖇polar-img]][🖇polar] [![Donate to my FLOSS or refugee efforts at ko-fi.com][🖇kofi-img]][🖇kofi] [![Donate to my FLOSS or refugee efforts using Patreon][🖇patreon-img]][🖇patreon]
 
-Provides strategies for authenticating to providers using the OpenID v2 standard, which is deprecated, and very old. It is *not* for the modern OpenID Connect (OIDC) standard.  For OpenID Connect (OIDC) check out: [omniauth/omniauth_openid_connect](https://github.com/omniauth/omniauth_openid_connect)
+Provides strategies for authenticating to providers using the [OpenID v2 standard](https://openid.net/specs/openid-authentication-2_0.html), which was final in 2007, and predates OAuth, and OIDC. It is *not* for the modern OpenID Connect (OIDC) standard.  For OpenID Connect (OIDC) check out: [omniauth/omniauth_openid_connect](https://github.com/omniauth/omniauth_openid_connect).
 
 | Tokens to Remember    | [![Gem name][⛳️name-img]][⛳️gem-name] [![Gem namespace][⛳️namespace-img]][⛳️gem-namespace]                                                                                                                                                                                                                                                                                                                                                                          |
 |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -79,11 +79,16 @@ NOTE: Be prepared to track down certs for signed gems and add them the same way 
 
 ## 🔧 Compatibility
 
-...
+This gem is compatible with a wide range of Ruby Engines and OmniAuth versions, as of June 2025, version 2.0.2.
+
+* Tested in CI against:
+    * Ruby 2.4, 2.5, 2.6, 2.7, 3.0, 3.1, 3.2, 3.3, 3.4, ruby-head
+    * JRuby 9.2, 9.3, 9.4, 10.0, jruby-head
+    * omniauth 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2.0, 2.1, HEAD
 
 ## 🔧 Basic Usage
 
-Use the strategy as a middleware in your application:
+Use the strategy as application middleware:
 
 ```ruby
 require "omniauth-openid"
@@ -230,7 +235,7 @@ See [LICENSE.txt][📄license] for the official [Copyright Notice][📄copyright
 ## 🤑 One more thing
 
 Having arrived at the bottom of the page, please endure a final supplication.
-The primary maintainer of this gem, Peter Boling, wants 
+The primary maintainer of this gem, Peter Boling, wants
 Ruby to be a great place for people to solve problems, big and small.
 Please consider supporting his efforts via the giant yellow link below,
 or one of smaller ones, depending on button size preference.
