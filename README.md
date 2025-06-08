@@ -1,15 +1,15 @@
 <p align="center">
     <a href="https://discord.gg/3qme4XHNKN" target="_blank" rel="noopener">
-      <img width="124px" src="https://github.com/omniauth/omniauth-openid/raw/master/docs/images/logo/galtzo-floss-logos-original.svg?raw=true" alt="Galtzo.com Logo by Aboling0, CC BY-SA 4.0">
+      <img width="84px" src="https://github.com/omniauth/omniauth-openid/raw/master/docs/images/logo/galtzo-floss-logos-original.svg?raw=true" alt="Galtzo.com Logo by Aboling0, CC BY-SA 4.0">
     </a>
     <a href="https://github.com/omniauth" target="_blank" rel="noopener">
-      <img src="https://github.com/omniauth/omniauth-openid/raw/master/docs/images/logo/omniauth-logo-182px.png?raw=true" alt="OmniAuth Logo possibly by Ted O'Meara, license unknown">
+      <img width="84px" src="https://github.com/omniauth/omniauth-openid/raw/master/docs/images/logo/omniauth-logo-182px.png?raw=true" alt="OmniAuth Logo possibly by Ted O'Meara, license unknown">
     </a>
     <a href="https://openid.net/specs/openid-authentication-2_0.html" target="_blank" rel="noopener">
-      <img src="https://github.com/omniauth/omniauth-openid/raw/master/docs/images/logo/openid_rgb-300dpi.png?raw=true" alt="OmniAuth Logo possibly by Ted O'Meara, license unknown">
+      <img width="192px" src="https://github.com/omniauth/omniauth-openid/raw/master/docs/images/logo/openid_rgb-300dpi.png?raw=true" alt="OmniAuth Logo possibly by Ted O'Meara, license unknown">
     </a>
     <a href="https://www.ruby-lang.org/" target="_blank" rel="noopener">
-      <img width="124px" src="https://github.com/omniauth/omniauth-openid/raw/master/docs/images/logo/ruby-logo-198px.svg?raw=true" alt="Yukihiro Matsumoto, Ruby Visual Identity Team, CC BY-SA 2.5">
+      <img width="84px" src="https://github.com/omniauth/omniauth-openid/raw/master/docs/images/logo/ruby-logo-198px.svg?raw=true" alt="Yukihiro Matsumoto, Ruby Visual Identity Team, CC BY-SA 2.5">
     </a>
 </p>
 
