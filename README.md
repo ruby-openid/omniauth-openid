@@ -313,8 +313,8 @@ or one of the others at the head of this README.
 [🔑qlty-covi♻️]: https://qlty.sh/badges/c2eb0211-c105-4fc6-9b36-650307c67e06/test_coverage.svg
 [🔑codecov]: https://codecov.io/gh/omniauth/omniauth-openid
 [🔑codecovi♻️]: https://codecov.io/gh/omniauth/omniauth-openid/branch/master/graph/badge.svg?token=E1fzzcuB8f
-[🔑coveralls]: https://coveralls.io/github/omniauth/omniauth-openid?branch=main
-[🔑coveralls-img]: https://coveralls.io/repos/github/omniauth/omniauth-openid/badge.svg?branch=main
+[🔑coveralls]: https://coveralls.io/github/omniauth/omniauth-openid?branch=master
+[🔑coveralls-img]: https://coveralls.io/repos/github/omniauth/omniauth-openid/badge.svg?branch=master
 [🔑depfu]: https://depfu.com/github/omniauth/omniauth-openid?project_id=22381
 [🔑depfui♻️]: https://badges.depfu.com/badges/6c9b45362951b872127f9e46d39bed76/count.svg
 [🖐codeQL]: https://github.com/omniauth/omniauth-openid/security/code-scanning
